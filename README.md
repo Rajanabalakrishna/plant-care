@@ -1,16 +1,28 @@
-# plant_care
+# Plant Disease Detection App
 
-A new Flutter project.
+A Flutter mobile application which is offline that uses machine learning to detect plant diseases from images.
 
-## Getting Started
+## Features
+- Image capture and analysis
+- Disease detection using TensorFlow Lite
+- Treatment recommendations
+- User-friendly interface
+- product recommendations
 
-This project is a starting point for a Flutter application.
+## Setup
+1. Clone the repository
+2. Run `flutter pub get`
+3. Connect your device or start an emulator
+4. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
+- Flutter SDK
+- Android Studio / VS Code
+- Android device or emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Model
+Uses a custom TensorFlow Lite model for plant disease classification
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#refer pubspec.yaml plugins i had imported lottie animations too 
+# The tflite model is trained if you want custom modifications of the model you can refer to the project of plant detection model i had made and pushed in the repository
+
