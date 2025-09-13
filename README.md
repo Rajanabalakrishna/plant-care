@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/a886c67b-f01a-4131-a2ad-d5f099110f63
+
 # Plant Disease Detection App
 
 A Flutter mobile application which is offline that uses machine learning to detect plant diseases from images.
